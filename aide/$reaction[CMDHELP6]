@@ -4,7 +4,9 @@ _serverinfo : Permet de voir les informations du serveur.
 _optiwork: montre le niveau de sécurité de botty sur une échelle de critères
 _ping: donne votre ping en ms.
 _serverlist : afficher la liste des serveurs qui font confiance à botty.
-_daily : Vous donne des points boutique quotidiennement. (Si vous avez une erreur, faites _pointsfix)
-_points : Affiche votre nombre de points boutique.
-_points-reset : Fix votre système de points.]
+_userinfo {mention}: donne des info sur le membre mentionné.
+--on passe au choses sérieuses--
+_finduser {ID}: vérifie si l'ID est bien attaché à un membre de discord. 
+_getserverinvite {id du serveur}: génère une invitation temporaire via l'ID vers le serveur donné
+_getuserinfo {ID}: version amélioré de `_userinfo`.]
 $footer[null]
