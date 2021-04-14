@@ -8,6 +8,7 @@ Le profil du bot à été crée en 2018, mais je me suis interéssé au code que
 > développement :
 !bêta wolfyλ#0911
 AQR_Rastiq#1543 
+
 > testeurs :
 ! ๖̶ζ͜͡𝓟𝓪𝓾𝓵𝓸 10#5199 
 ・₊°  ˢᵃˢʰᵃ ᶠᵒʳᵉᵛᵉʳ  °₊・#0101 
