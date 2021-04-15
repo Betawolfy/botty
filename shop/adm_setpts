@@ -1,5 +1,6 @@
 $nomention
+$onlyIf[$isNumber[$message[1]]==true;Vous devez donner un nombre valide !]
 $onlyForIDs[499297738370973716;432116536866766849; :x: Tu n'as pas la permission d'exécuter cette commande !]
 $argsCheck[>1;Oop, tu as besoin de ping au moins une personne!]
-$mentioned[2] à recu $message[1]
-$setUserVar[pts;$sum[$getUserVar[pts];$message[1]];$mentioned[2]]
+<@$mentioned[1]> a maintenant $message[1] points !
+$setUserVar[pts;$message[1];$mentioned[1]]
