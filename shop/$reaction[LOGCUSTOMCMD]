@@ -1,0 +1,5 @@
+$nomention
+$useChannel[832287203836428328]
+$title[Achat de commande custom]
+$description[$username a acheté une commande custom !]
+$footer[Commande custom achetée via le serveur $serverName[$guildID] | utiliser _findserv|]

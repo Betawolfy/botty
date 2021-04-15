@@ -1,0 +1,7 @@
+$nomention
+$onlyIf[$getUserVar[pts]>=75;Vous n'avez pas assez de points pour acheter une commande custom !]
+$setUserVar[pts;$sub[$getUserVar[pts];75]]
+$title[Commande custom achetée !]
+$description[Vous avez acheté une commande custom ! Réagissez :white_check_mark: pour que les modos de botty puissent vous contacter et vous demander en quoi consiste la commande !]
+$awaitReactions[LOGCUSTOMCMD;:white_check_mark]
+$addReactions[:white_check_mark:]
