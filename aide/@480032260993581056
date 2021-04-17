@@ -1,0 +1,14 @@
+$nomention
+$title[Aide:]
+$description[ voici les aides:
+
+1️⃣ | `_help-staff` toute les commandes de modération. _perm admin requise_.
+2️⃣ | `_help-modules` montre les modules du bot. 
+3️⃣ | `_help-ticket` : toute les commandes pour les tickets.
+4️⃣ | `_help-fun` : toute les commandes de fun.
+5️⃣ | `_help-premium` : montre les commandes premium.
+6️⃣ | `_help-utility` : toutes les commandes utilitaires pour obtenir des infos]
+$footer[ des idées de commandes? https://github.com/betawolfy/botty-anti-hack-bdscript>issue>new issue>feature request]
+$awaitReactions[CMDHELP1;1️⃣;CMDHELP2;2️⃣;CMDHELP3;3️⃣;CMDHELP4;4️⃣;CMDHELP5;5️⃣;CMDHELP6;6️⃣]
+$addReactions[1️⃣;2️⃣;3️⃣;4️⃣;5️⃣;6️⃣]
+$color[#36393f]
