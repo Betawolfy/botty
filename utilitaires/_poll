@@ -1,0 +1,10 @@
+$nomention
+$useChannel[833343236156293171]
+$addReactions[✅;❌]
+$argsCheck[>1;:x: Vous devez écrire une question!]
+$deletecommand
+$title[Poll]
+$description[$noMentionMessage]
+$footer[Question par $username]
+$color[94b1fe]
+$thumbnail[$authorAvatar]
