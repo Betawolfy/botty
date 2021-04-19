@@ -1,0 +1,9 @@
+$newTicket[ ticket;aucun sujet n'a été donné;Hello <@$authorID>!
+
+$customEmoji[AU_Report] merci d'avoir créer un ticket!
+
+merci d'écrire votre problème dans le ticket.
+
+**Subject**
+soucis lié au bot;votre ticket a bien été  créé. Allez dans le salon {channel}. un membre de l'équipe de botty va venir vous répondre.;**erreur** merci de réessayer.]
+$channelSendMessage[821654433669972021; un membre de l'équipe à été demandé sur le serveur $guildName[$guildID]]

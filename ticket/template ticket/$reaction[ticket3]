@@ -1,0 +1,8 @@
+$newTicket[ ticket;aucun sujet n'a été donné;Hello <@$authorID>!
+
+$customEmoji[AU_Report] merci d'avoir créer un ticket!
+
+merci d'écrire votre signalement avec le nom de la personne dans le ticket.
+
+**Subject**
+signalement d'un comportement innaproprié. ;votre ticket a bien été  créé. Allez dans le salon {channel};**erreur** merci de réessayer.]
