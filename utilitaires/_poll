@@ -4,7 +4,7 @@ $addReactions[✅;❌]
 $argsCheck[>1;:x: Vous devez écrire une question!]
 $deletecommand
 $title[Poll]
-$description[$noMentionMessage]
+$description[$message]
 $footer[Question par $username]
 $color[94b1fe]
 $thumbnail[$authorAvatar]
