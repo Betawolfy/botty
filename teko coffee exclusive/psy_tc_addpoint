@@ -2,5 +2,5 @@ $nomention
 $onlyIf[$isNumber[$message[1]]==true;Vous devez donner un nombre valide !]
 $onlyForIDs[499297738370973716;432116536866766849; :x: Tu n'as pas la permission d'exécuter cette commande !]
 le clan "psykoss" à désormais $message[1] points !
-$setServerVar[psykosspts;$sum[$getServerVar[psykosspts];$message[1]]]
-$modifyChannel[834322177046216704;P-$sum[$getServerVar[psykosspts];$message[1]]]
+$setServerVar[psykosspts;$sum[$getServerVar[psykosspts];$message[1]];807582681281986620]
+$modifyChannel[834322177046216704;P-$sum[$getServerVar[psykosspts];$message[1]];807582681281986620]
