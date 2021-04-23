@@ -1,0 +1,9 @@
+$nomention
+$title[$customEmoji[D_channellock] bloquage ]
+$description[<#$channelID> à été bloqué]
+$addTimestamp
+$footer[bloqué par le staff]
+$color[ab0061]
+$modifyChannelPerms[$channelID;-sendmessages;$guildID]
+$onlyAdmin[**:x: __You can't use this command__**]
+$channelSendMessage[759776040296906753;<@$mentioned[1]> à bloqué le salon <#$channelID> du serveur en lien $GetServerInvite ! ]
