@@ -1,9 +1,12 @@
-$nomention
-$newTicket[ ticket;aucun sujet n'a été donné;Hello <@$authorID>!
-
-$customEmoji[AU_Report] merci d'avoir créer un ticket!
-
-merci d'écrire votre problème dans le ticket.
-
-**Subject**
-{subject};votre ticket a bien été  créé. Allez dans le salon {channel};**erreur** merci de réessayer.]
+$nomention 
+$title[ouverture d'un ticket]
+$description[choisisez la réaction se raprochant le plus de votre problème: 
+1️⃣: soucis/question lié à une règle. 
+2️⃣: soucis lié au bot.
+3️⃣: signalement d'un comportement innaproprié.
+4️⃣: problème lié à l'économie (**teko coffee seulement**)
+5️⃣: finalisation d'un paiement (**teko coffee seulement**)
+6️⃣: autre]
+$footer[https://github.com/betawolfy/botty | botty anti hack]
+$awaitReactions[ticket1;1️⃣;ticket2;2️⃣;ticket3;3️⃣;ticket4;4️⃣;ticket5;5️⃣;ticket6;6️⃣]
+$addReactions[1️⃣;2️⃣;3️⃣;4️⃣;5️⃣;6️⃣]
