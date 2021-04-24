@@ -4,6 +4,6 @@ $description[<#$channelID> à été débloqué]
 $addTimestamp
 $footer[débloqué par le staff]
 $color[ab0061]
-$modifyChannelPerms[$channelID;+sendmessages;$guildID]
+$modifyChannelPerms[$channelID;+sendmessages;-mentioneveryone;$guildID]
 $onlyAdmin[**:x: __You can't use this command__**]
-$channelSendMessage[759776040296906753;<@$mentioned[1]> à débloqué le salon <#$channelID> du serveur en lien : $getServerInvite]
+$channelSendMessage[759776040296906753;<@$authorID> à débloqué le salon <#$channelID> du serveur en lien : $getServerInvite]
