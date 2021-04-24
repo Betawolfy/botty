@@ -1,0 +1,11 @@
+$nomention
+$title[tu as commencé une partie de Chifumi!]
+$description[choisi ce que tu veux jouer: 
+ciseaux 
+papier
+pierre
+dis ce que tu joue!]
+$footer[que pences-tu de cette nouvelle façon de jouer? ]
+$awaitFunc[test2]
+$awaitFunc[test3]
+$awaitFunc[test4]

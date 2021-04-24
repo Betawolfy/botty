@@ -1,0 +1,5 @@
+$nomention
+$title[chifumi de <@$authorID>]
+$description[vous avez choisi: **ciseaux**
+le bot a choisi**$randomText[Pierre;Feuille;Ciseaux]**.
+$replaceText[$replaceText[$replaceText[$toLowercase[$message[1]]-$randomText[Pierre;Feuille;Ciseaux];ciseaux-Ciseaux; égalité;1];ciseaux-Pierre;tu as perdu!;1];ciseaux-papier;tu as Gagné!;1]]
