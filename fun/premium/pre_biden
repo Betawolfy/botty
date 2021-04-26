@@ -1,0 +1,7 @@
+$nomention
+$onlyIf[$getUserVar[premium]==1;:x: tu n'es pas premium, pour savoir comment le devenir? `_help-premium]
+$deletecommand
+$argsCheck[>1;:x: Tu dois écrire un message !]
+ 
+$color[$random[111111;999999]]
+$image[https://imageapi.aqrrastiq.repl.co/api/biden?id=$random[1;1000000]&msg=$replaceText[$replaceText[$message; ;%20;-1];';%27;-1]] 
