@@ -1,0 +1,7 @@
+$nomention
+$title[statistiques de: $username]
+$description[
+:moneybag: | nombre de points -  $getUserVar[pts]
+:scroll: | essai de tc_rpc - $getUserVar[winrpc] 
+$userAvatar[$<@authorID>]]
+$footer[https://github.com/betawolfy/botty | botty anti hack]

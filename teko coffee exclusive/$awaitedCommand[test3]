@@ -1,5 +1,6 @@
 $nomention
 $title[chifumi de <@$authorID>]
+$setUserVar[winrpc;$sum[$getUserVar[winrpc];1]]
 $description[vous avez choisi: **papier** :mountain:
 le bot a choisi**$randomText[Pierre;Feuille;Ciseaux]**.
 $replaceText[$replaceText[$replaceText[$toLowercase[$message[1]]-$randomText[Pierre;Feuille;Ciseaux];papier-Ciseaux; tu as perdu!;1];papier-Pierre;tu as gagné!;1];papier-papier;égalité!;1]]
