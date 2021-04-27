@@ -1,0 +1,8 @@
+$nomention
+$onlyIf[$getUserVar[pts]>=125;Vous n'avez pas assez de points pour acheter 3 mois de botty premium !]
+$setUserVar[pts;$sub[$getUserVar[pts];125]]
+$setUserVar[pet;1]
+$title[pet acheté !]
+$description[vous avez acheté votre pet! Réagissez ✅ pour recevoir votre achat et informer les modos de botty !]
+$awaitReactions[LOGPREMIUM;✅]
+$addReactions[✅]

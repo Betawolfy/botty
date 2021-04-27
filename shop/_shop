@@ -1,10 +1,11 @@
-$nomention
 $title[Boutique]
 $author[voici les articles disponibles:]
 $description[ 
-3 mois de botty premium: 55 pts boutique : acheter en mettant comme réaction 1️⃣. 
+un pet: 125 pts boutique : acheter en mettant comme réaction 0️⃣. 
+3 mois de botty premium : 55 pts boutique : acheter en mettant comme réaction 1️⃣. 
 1 commende personnalisé : 75 pts boutique: acheter en mettant comme réaction 2️⃣.
-]
-$awaitReactions[BUYPREMIUM;1️⃣;BUYCUSTOMCMD;2️⃣]
-$addReactions[1️⃣;2️⃣]
+--shop teko coffee--
+1000$ umb : 100 pts boutique : acheter en mettant comme réaction 3️⃣ .]
+$awaitReactions[BUYPET;0️⃣;BUYPREMIUM;1️⃣;BUYCUSTOMCMD;2️⃣;BUYTEKOPTS;3️⃣]
+$addReactions[0️⃣;1️⃣;2️⃣;3️⃣]
 $footer[trouver un moyen d'achat]

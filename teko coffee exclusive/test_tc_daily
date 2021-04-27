@@ -1,11 +1,11 @@
-$cooldown[12h;Vous devez attendre %time-h% avant de pouvoir refaire cette commande !]
+$onlyForIDs[499297738370973716;432116536866766849; :x: Tu n'as pas la permission d'exécuter cette commande !]
 $nomention
 $color[$random[10999;99999]]
 $description[
-$if[$getUserVar[ispet;$mentioned[1]]==0]
+$if[$getUserVar[ispet]==0]
 > Voici votre récompense quotidienne:  `$random[5;10]` points boutique!
 $endif
-$if[$getUserVar[premium;$mentioned[1]]==1] 
+$if[$getUserVar[ispet]==1] 
 > Voici votre récompense quotidienne:  `$random[10;20]` points boutique! vous en gagnez plus grace à votre pet.  
 $endif
 

@@ -2,6 +2,15 @@ $nomention
 $title[statistiques de: $username]
 $description[
 :moneybag: | nombre de points -  $getUserVar[pts]
-:scroll: | essai de tc_rpc - $getUserVar[winrpc] 
-$userAvatar[$<@authorID>]]
+:scroll: | essai de tc_rpc - $getUserVar[winrpc]
+:robot: | possède un pet? $if[$getUserVar[ispet]==0]
+> :x: - n'a pas de pet.
+$endif
+$if[$getUserVar[ispet]==1] 
+> :robot: - roger: compagnon commun :trident:.
+vie: $getUserVar[petlifecommon]/150
+$endif]
+
+$userAvatar[$<@authorID>]
 $footer[https://github.com/betawolfy/botty | botty anti hack]
+
