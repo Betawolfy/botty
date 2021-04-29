@@ -1,9 +1,9 @@
 $nomention
 $onlyIf[$getUserVar[pts]>=125;Vous n'avez pas assez de points pour acheter 3 mois de botty premium !]
 $setUserVar[pts;$sub[$getUserVar[pts];125]]
-$setUserVar[pet;1]
+$setUserVar[pet;$random[1;3]]
 $title[pet acheté !]
-$description[vous avez acheté votre pet! Réagissez ✅ pour recevoir votre achat et informer les modos de botty !]
+$description[Vous avez obtenu le pet $replaceText[$replaceText[$replaceText[$getUserVar[pet];1;Roger;1];2;Filux;1];3;Cathoux;1]! Réagissez ✅ pour recevoir votre achat et informer les modos de botty !]
 $setVar[temppet;$authorID]
 $awaitReactions[LOGPET;✅]
 $addReactions[✅]
