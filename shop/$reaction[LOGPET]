@@ -1,5 +1,5 @@
 $nomention
 $useChannel[832287203836428328]
 $title[Achat de pet]
-$description[$username[$getVar[temppet]] a acheté un pet et a obtenu le pet $replaceText[$replaceText[$replaceText[$getUserVar[pet];1;Roger;1];2;Filux;1];3;Cathoux;1] !]
+$description[$username[$getVar[temppet]] a acheté un pet , roger. !]
 $footer[Commande custom achetée via le serveur $serverName[$guildID] | utiliser _findserv|]
