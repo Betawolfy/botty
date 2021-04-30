@@ -8,6 +8,20 @@ $onlyIf[$checkCondition[$toLowercase[$message[1]]==pierre]-$checkCondition[$toLo
 $title[RPS‏]
 $description[Vous avez choisi **$replaceText[$replaceText[$replaceText[$toLowercase[$message[1]];pierre;Pierre;1];feuille;Feuille;1];ciseaux;Ciseaux;1]**, le bot a choisi**$randomText[Pierre;Feuille;Ciseaux]**.
 $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$toLowercase[$message[1]]-$randomText[Pierre;Feuille;Ciseaux];pierre-Ciseaux;Tu as **Gagné**
-;1];feuille-Pierre;Tu as **Gagné**.;1];ciseaux-Feuille;Tu as **Gagné**.;1];pierre-Feuille;Tu as **Perdu**.;1];feuille-Ciseaux;Tu as **Perdu**.;1];ciseaux-Pierre;Tu as **Perdu**.;1];pierre-Pierre;**Egalité**!;1];ciseaux-Ciseaux;**Egalité**!;1];feuille-Feuille;**Egalité**!;1]]
-$footer[si tu à gagné, tu remporte $randomText[1 300$;50 points pour votre clan]| commende exclusive pour le serveur Teko coffee]
+;1];feuille-Pierre;Tu as **Gagné**.;1];ciseaux-Feuille;Tu as **Gagné**.;1];pierre-Feuille;Tu as **Perdu**.;1];feuille-Ciseaux;Tu as **Perdu**.;1];ciseaux-Pierre;Tu as **Perdu**.;1];pierre-Pierre;**Egalité**!;1];ciseaux-Ciseaux;**Egalité**!;1];feuille-Feuille;**Egalité**!;1]
+$if[$getUserVar[ispet]==0]
+si tu à gagné, tu remportes $randomText[1 300$;1 300$;1 300$;50 points pour votre clan;50 points pour votre clan]
+$endif
+$if[$getUserVar[ispet]==1]
+si tu à gagné, tu remportes $randomText[1 300$;1 300$;1 300$;50 points pour votre clan;50 points pour votre clan]
+$endif
+$if[$getUserVar[ispet]==2] 
+si tu à gagné, tu remportes $randomText[1 300$;1 300$;50 points pour ton clan;50 points pour votre clan;50 points pour votre clan]
+$setUserVar[petlifecommon;$sub[$getUserVar[petliferare];10]]
+$endif    
+$if[$getUserVar[ispet]==3] 
+si tu à gagné, tu remportes $randomText[1 300$;50 points pour votre clan]
+$setUserVar[petlifecommon;$sub[$getUserVar[petlifeepic];10]]
+$endif  
+| commende exclusive pour le serveur Teko coffee]
 $color[55FFFF]

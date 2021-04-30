@@ -9,6 +9,14 @@ $endif
 $if[$getUserVar[ispet]==1] 
 > :robot: - roger: compagnon commun :trident:.
 vie: $getUserVar[petlifecommon]/150
+$endif
+$if[$getUserVar[ispet]==2] 
+> $customEmoji[filux] - filux: compagnon rare :diamond_shape_with_a_dot_inside:.
+vie: $getUserVar[petliferare]/180
+$endif
+$if[$getUserVar[ispet]==3] 
+> $customEmoji[cathou] - cathou: compagnon épique :fleur_de_lis:.
+vie: $getUserVar[petlifecommon]/205
 $endif]
 
 $userAvatar[$<@authorID>]

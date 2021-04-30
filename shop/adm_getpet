@@ -1,0 +1,6 @@
+$nomention
+$onlyIf[$isNumber[$message[1]]==true;Vous devez donner un nombre valide !]
+$onlyForIDs[499297738370973716;432116536866766849; :x: Tu n'as pas la permission d'exécuter cette commande !]
+$argsCheck[>1;Oop, tu as besoin de ping au moins une personne!]
+<@$mentioned[1]> a maintenant le pet numéro $message[1]  !
+$setUserVar[ispet;$message[1];$mentioned[1]]
