@@ -1,11 +1,11 @@
 $nomention
 $title[les différents animaux:]
 $description[
-:robot: | Roger :tridant: - commun | 150 pv
+:white_check_mark: | :robot: | Roger :tridant: - commun | 150 pv
 > +5% de pts avec _daily 
-$customEmoji[filux] | filux :diamond_shape_with_a_dot_inside: - rare | 180 pv 
+:x: | $customEmoji[filux] | filux :diamond_shape_with_a_dot_inside: - rare | 180 pv 
 > +5% de pts avec daily 
 > +25% de chance d'obtenir des points de clan dans`tc_rpc`
-$customEmoji[cathou] | cathou :fleur_de_lis: - épique | 205 pv 
+:x: | $customEmoji[cathou] | cathou :fleur_de_lis: - épique | 205 pv 
 > +10% de pts avec daily 
 > +50% de chance d'obtenir des points de clan dans`tc_rpc`]

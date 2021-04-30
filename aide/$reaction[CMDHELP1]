@@ -1,12 +1,10 @@
 $nomention
 $title[ aide pour le staff ]
 $description[_help-staff :
-_adm-annonce : Permet de faire une annonce avec botty.
 _kick `@mention` raion: Expulse un membre du serveur. Celui-ci peut revenir à l’aide d’une invitation.
 _bak-ban `@mention` `raison`: Expulse définitivement un membre des serveurs sécurisés par BAK à moins de se faire débannir manuellement, pour plus d'info, `_bak-help`.
 _warn `@mention` "raison" : avertir un membre du serveur. à partir de 3 warns, l'équipe sécurité de botty débattra sur un possible bakban.
-_unwarn `@mention`  `raison` : demander ou faire appel à un warn. l'équipe sécurité de botty analysera les logs pour décider si oui ou non le warn sera retiré.
-_lock `{#salon}` `{@everyone}` : Permet de bloquer le salon sélectionné.
-_unlock `{#salon}` `{@everyone}` : Permet de débloquer le salon sélectionné.]
+_lock : Permet de bloquer le salon sélectionné.
+_unlock : Permet de débloquer le salon sélectionné.]
 $footer[Les caractères en surbrillance sont OBLIGATOIRES.| écrit par ! ๖̶ζ͜͡𝓟𝓪𝓾𝓵𝓸 10#5199]
 $onlyAdmin[:x: veuillez disposer de la perm suivante : `administrateur`]
