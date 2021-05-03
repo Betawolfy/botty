@@ -3,7 +3,7 @@ $nomention
 $color[$random[10999;99999]]
 $description[
 $if[$getUserVar[ispet;$mentioned[1]]==0]
-> Voici votre récompense quotidienne:  `$random[5;10]` points boutique!
+> Voici votre récompense quotidienne:  `$random[5;10]` points boutique! pensez à vous ping pour gagner votre bonus si vous avez un animal. 
 $endif
 $if[$getUserVar[premium;$mentioned[1]]==1] 
 > Voici votre récompense quotidienne:  `$random[10;20]` points boutique! vous en gagnez plus grace à votre pet.  
