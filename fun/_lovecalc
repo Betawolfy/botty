@@ -1,7 +1,8 @@
 $title[Taux d'amour 💕]
-$argsCheck[1;Vous devez mentionner une personne !]
+$argsCheck[>1;Vous devez mentionner une personne !]
 $onlyIf[$getVar[api]==1;:x: L'API est éteint !]
 $setUserVar[templc;$random[0;100]]
+$if[$userExists[$mentioned[2]]==false]
 $if[$getUserVar[templc]<=25]
 $description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! Il va falloir trouver quelqu'un d'autre. 💔]
 $endif
@@ -24,6 +25,31 @@ $if[$getUserVar[templc]==100]
 $description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! C'est un couple parfait ! 💝]
 $endif
 $image[https://imageapi.aqrrastiq.repl.co/api/lovecalc?id=$random[1;100000]&one=$authorAvatar&two=$userAvatar[$mentioned[1]]]
+$endif
+$if[$userExists[$mentioned[2]]==true]
+$if[$getUserVar[templc]<=25]
+$description[La force de ce sentiment entre <@$mentioned[1]> et <@$mentioned[2]> est de $getUserVar[templc]% ! Il va falloir trouver quelqu'un d'autre. 💔]
+$endif
+$if[$getUserVar[templc]>25]
+$if[$getUserVar[templc]<=50]
+$description[La force de ce sentiment entre <@$mentioned[1]> et <@$mentioned[2]> est de $getUserVar[templc]% ! C'est sous la moyenne mais ça peut passer. 💓]
+$endif
+$endif
+$if[$getUserVar[templc]>50]
+$if[$getUserVar[templc]<=75]
+$description[La force de ce sentiment entre <@$mentioned[1]> et <@$mentioned[2]> est de $getUserVar[templc]% ! C'est très bien ! 💘]
+$endif
+$endif
+$if[$getUserVar[templc]>75]
+$if[$getUserVar[templc]<=99]
+$description[La force de ce sentiment entre <@$mentioned[1]> et <@$mentioned[2]> est de $getUserVar[templc]% ! C'est presque parfait ! 💞]
+$endif
+$endif
+$if[$getUserVar[templc]==100]
+$description[La force de ce sentiment entre <@$mentioned[1]> et <@$mentioned[2]> est de $getUserVar[templc]% ! C'est un couple parfait ! 💝]
+$endif
+$image[https://imageapi.aqrrastiq.repl.co/api/lovecalc?id=$random[1;100000]&one=$userAvatar[$mentioned[1]]&two=$userAvatar[$mentioned[2]]]
+$endif
 $footerIcon[$userAvatar[$botID]]
 $footer[LoveCalc | API et commande développés par AQR_Rastiq#1543]
 $color[FFC0CB]
