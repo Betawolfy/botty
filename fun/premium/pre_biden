@@ -1,5 +1,6 @@
 $nomention
 $onlyIf[$getUserVar[premium]==1;:x: tu n'es pas premium, pour savoir comment le devenir? `_help-premium]
+$onlyIf[$getVar[api]==1;:x: L'API est éteint !]
 $deletecommand
 $argsCheck[>1;:x: Tu dois écrire un message !]
  

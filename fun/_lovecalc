@@ -1,4 +1,6 @@
 $title[Taux d'amour 💕]
+$argsCheck[1;Vous devez mentionner une personne !]
+$onlyIf[$getVar[api]==1;:x: L'API est éteint !]
 $setUserVar[templc;$random[0;100]]
 $if[$getUserVar[templc]<=25]
 $description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! Il va falloir trouver quelqu'un d'autre. 💔]
