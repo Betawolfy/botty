@@ -1,0 +1,28 @@
+$title[Taux d'amour 💕]
+$setUserVar[templc;$random[0;100]]
+$if[$getUserVar[templc]<=25]
+$description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! Il va falloir trouver quelqu'un d'autre. 💔]
+$endif
+$if[$getUserVar[templc]>25]
+$if[$getUserVar[templc]<=50]
+$description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! C'est sous la moyenne mais ça peut passer. 💓]
+$endif
+$endif
+$if[$getUserVar[templc]>50]
+$if[$getUserVar[templc]<=75]
+$description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! C'est très bien ! 💘]
+$endif
+$endif
+$if[$getUserVar[templc]>75]
+$if[$getUserVar[templc]<=99]
+$description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! C'est presque parfait ! 💞]
+$endif
+$endif
+$if[$getUserVar[templc]==100]
+$description[La force de ce sentiment entre $username et <@$mentioned[1]> est de $getUserVar[templc]% ! C'est un couple parfait ! 💝]
+$endif
+$image[https://imageapi.aqrrastiq.repl.co/api/lovecalc?id=$random[1;100000]&one=$authorAvatar&two=$userAvatar[$mentioned[1]]]
+$footerIcon[$userAvatar[$botID]]
+$footer[LoveCalc | API et commande développés par AQR_Rastiq#1543]
+$color[FFC0CB]
+$nomention
