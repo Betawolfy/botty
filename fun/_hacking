@@ -1,7 +1,14 @@
 $nomention
-génération en cours...
-$editIn[3;identifiant: 
-login : $username[$mentioned[1]] $randomText[@orange.fr;@yandex.ru;@gmail.com;@outlook.com]
-code: $randomString[10]
-adresse ip: $random[1;123],$random[1;19],$random[1;124],$random[1;18] : $random[3633;3634]]
-
+$argsCheck[1;Oop, vous devez mentionner un personne !]
+$cooldown[1s;:x: Vous pouvez seulement utiliser cette commande toutes les 12 heures ! Veuillez patienter %time-h% avant de réutiliser cette commande !]
+$setUserVar[temphack;$random[1;10]]
+$title[Hack]
+$description[Login: $username[$mentioned[1]]
+E-mail : $username[$mentioned[1]]$randomText[@orange.fr;@yandex.ru;@gmail.com;@outlook.com;@aol.fr]
+Mot de passe : $randomString[10]
+Adresse IP : $random[1;123].$random[1;19].$random[1;124].$random[1;18] : $random[3633;3634]
+Token : $randomString[10]$randomString[10]$randomString[4].$randomString[6].$randomString[10]$randomString[10]$randomString[7]
+<@$mentioned[1]>, vous vous êtes fait "hacker" par $username[$authorID] ! Il a donc récupéré $getUserVar[temphack] points de votre compte !]
+$color[ff0000]
+$setUserVar[pts;$sum[$getUserVar[pts];$getUserVar[temphack]]]
+$setUserVar[pts;$sub[$getUserVar[pts;$mentioned[1]];$getUserVar[temphack]];$mentioned[1]]
