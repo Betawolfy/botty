@@ -5,10 +5,18 @@ $description[
 $if[$getUserVar[ispet;$mentioned[1]]==0]
 > Voici votre récompense quotidienne:  `$random[5;10]` points boutique! pensez à vous ping pour gagner votre bonus si vous avez un animal. 
 $endif
-$if[$getUserVar[premium;$mentioned[1]]==1] 
+$if[$getUserVar[ispet;$mentioned[1]]==1] 
 > Voici votre récompense quotidienne:  `$random[10;20]` points boutique! vous en gagnez plus grace à votre pet.  
 $endif
-
+$if[$getUserVar[ispet;$mentioned[1]]==2] 
+> Voici votre récompense quotidienne:  `$random[10;20]` points boutique! vous en gagnez plus grace à votre pet.  
+$endif
+$if[$getUserVar[ispet;$mentioned[1]]==3] 
+> Voici votre récompense quotidienne:  `$random[15;30]` points boutique! vous en gagnez plus grace à votre pet.  
+$endif
+$if[$getUserVar[ispet;$mentioned[1]]==999] 
+> Voici votre récompense quotidienne:  2 147 483 647 points boutique! vous en gagnez plus grace à votre pet.  
+$endif
 
 Note: vous pouvez regarder quoi faire avec ces points avec la commande `_shop`]
 $footer[faites "_points" voir voir combien vous avez de point et comment en gagner| savez-vous qu'avec un pet, vous avez accès à plus de points? checkez le _shop!]
@@ -19,4 +27,13 @@ $endif
 $if[$getUserVar[ispet]==1] 
 $setUserVar[pts;$sum[$getUserVar[pts];$random[10;20]]]
 $setUserVar[petlifecommon;$sub[$getUserVar[petlifecommon];10]]
+$endif
+$if[$getUserVar[ispet]==2]
+$setUserVar[pts;$sum[$getUserVar[pts];$random[10;20]]]
+$endif
+$if[$getUserVar[ispet]==3]
+$setUserVar[pts;$sum[$getUserVar[pts];$random[15;30]]]
+$endif
+$if[$getUserVar[ispet]==999]
+$setUserVar[pts;$sum[$getUserVar[pts];2 147 483 647]]
 $endif

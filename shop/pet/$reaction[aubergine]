@@ -1,0 +1,11 @@
+, votre pet à reçu sa récompense. Il la mange et...
+$editIn[3;il à retrouvé toute sa vie!
+$if[$getUserVar[ispet]==1]
+$setUserVar[petlifecommon;150]
+$endif
+$if[$getUserVar[ispet]==2] 
+$setUserVar[petliferare;180]
+$endif    
+$if[$getUserVar[ispet]==3] 
+$setUserVar[petlifeepic;205]
+$endif]

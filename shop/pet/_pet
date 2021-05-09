@@ -1,0 +1,24 @@
+$nomention
+$title[les différents animaux:]
+$description[
+:white_check_mark: | :robot: | Roger :tridant: - commun val==1 | 150 pv
+> +5% de pts avec _daily 
+> +20% de chance de ne pas avoir de malus dans `tc_rpc`
+:x: | $customEmoji[filux] | filux :diamond_shape_with_a_dot_inside: - rare val==2 | 180 pv 
+> +5% de pts avec daily 
+> +25% de chance d'obtenir des points de clan dans`tc_rpc`
+> +20% de chance de ne pas avoir de malus dans `tc_rpc`
+:x: | $customEmoji[cathou] | cathou :fleur_de_lis: - épique val==3 | 205 pv 
+> +10% de pts avec daily 
+> +50% de chance d'obtenir des points de clan dans`tc_rpc`
+> +20% de chance de ne pas avoir de malus dans `tc_rpc`
+:tools: | _émoji indispo_ w̶o̶l̴f̸y̸  :hearts: - légendaire val==2 147 483 647 | 2 147 483 647 pv 
+> +2 147 483 647% de points avec daily
+> +2 147 483 647% de chance d'obtenir des points de clan dans`tc_rpc`
+> +75% de chance d'avoir un malus dans `tc_rpc`
+> régénération de vie instantanée
+╰ ╴▸   .˚ ⤹ ❝  
+:white_check_mark: - ajouté
+:x: - pas encore ajouté
+:tools: - outil de developpement]
+$footer[]

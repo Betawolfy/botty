@@ -1,0 +1,22 @@
+$title[nourriture]
+$description[voulez-vous nourir votre animal?
+࿔⸝⸝₊╭・:apple:| donne 5 pv | cout: 10 pts
+࿔⸝⸝₊┇:strawberry:| donne 10 pv | cout: 15 pts
+࿔⸝⸝₊┇:peach:| donne 25 pv | cout: 30 pts
+࿔⸝⸝₊╰・:eggplant:| donne tout ces pv | cout: 40 pts
+࿔꒰✒・─── 
+࿔⸝⸝₊╭・votre pet à: 
+$if[$getUserVar[ispet]==1] 
+࿔⸝⸝₊┇vie: $getUserVar[petlifecommon]/150
+$endif
+$if[$getUserVar[ispet]==2] 
+࿔⸝⸝₊┇vie: $getUserVar[petliferare]/180
+$endif
+$if[$getUserVar[ispet]==3] 
+࿔⸝⸝₊┇vie: $getUserVar[petlifeepic]/205
+$endif
+࿔꒰✒・─── 
+]
+$footer[sélectionnez le fruit/ légume que vous voulez donner à votre pet.]
+$awaitReactions[apple;🍎;fraise;🍓;peche;🍑;aubergine;🍆]
+$addReactions[🍎;🍓;🍑;🍆]

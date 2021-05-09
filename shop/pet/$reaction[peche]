@@ -1,0 +1,11 @@
+, votre pet à reçu sa récompense. Il la mange et...
+$editIn[3;il à retrouvé de la vie! +25 pv!
+$if[$getUserVar[ispet]==1]
+$setUserVar[petlifecommon;$sum[$getUserVar[petlifecommon];25]]
+$endif
+$if[$getUserVar[ispet]==2] 
+$setUserVar[petliferare;$sum[$getUserVar[petliferare];25]]
+$endif    
+$if[$getUserVar[ispet]==3] 
+$setUserVar[petlifeepic;$sum[$getUserVar[petlifeepic];25]]
+$endif]
