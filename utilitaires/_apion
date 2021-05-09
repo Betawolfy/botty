@@ -1,0 +1,4 @@
+$nomention
+$onlyForIDs[499297738370973716;:x: Vous n'avez pas la permission d'exécuter cette commande !]
+$setVar[api;1]
+L'api est maintenant allumé !
