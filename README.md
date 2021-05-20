@@ -22,12 +22,11 @@ AQR_Rastiq#1543
 
 # actualité
 
+20/05/2021 - le bot sera hors ligne pendant un temps indeterminé. Nous allons réécrire le code du bot en un autre langage. Botty Bak-Ban restera en ligne. 
+
 25/04/2021 - une mise à jour (v2.4-rc2) sera déployé ce jour vers 15h30 si tout est prêt à ce moment la.
 
 24/04/2021 - une mise à jour (v2.4-rc1) sera déployé demain vers 10h30 si tout est prêt à ce moment la. 
 
 03/04/2021 - Le code source du système Bak-Ban de Botty a été déplacé à cette URL : https://github.com/DiscordBotty/bakban-opensource
-
-23/03/2021 - le bakban sera ajouté très prochainemnt. mais le code est, comme l'intégralité de ce code, open source. 
-          - https://github.com/AQRRastiq/bakban-opensource
 
