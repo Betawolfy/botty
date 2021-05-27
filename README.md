@@ -18,9 +18,9 @@ c'est un bot d'économie et de modération codé par notre developpeuse en amér
 # équipe de botty 
 
 > développement :
-😎!bêta wolfyλ#0911 dev de Botty anti hack
-😎AQR_Rastiq#1543 - dev de Botty anti hack et Botty Bak-ban.
-😎[valv0]rainbow_dash#5506 - dev de Botty anti hack et valv0 twillight sparkle. 
+!bêta wolfyλ#0911 dev de Botty anti hack
+AQR_Rastiq#1543 - dev de Botty anti hack et Botty Bak-ban.
+[valv0]rainbow_dash#5506 - dev de Botty anti hack et valv0 twillight sparkle. 
 
 > testeurs :
 ! ๖̶ζ͜͡𝓟𝓪𝓾𝓵𝓸 10#5199 
