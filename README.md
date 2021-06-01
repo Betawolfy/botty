@@ -30,12 +30,14 @@ AQR_Rastiq#1543 - dev de Botty anti hack et Botty Bak-ban.
 ・ ︶꒰🌙꒱ Mary ‧ ₊˚#0666 pour avoir décoré le serveur du bot. 
 
 # status du bot: 
-> 27/05/2021 à 09:28 | hors ligne 
+> 01/06/2021 | en ligne  
 
     - la page de status du bot à été crée!
     - https://twitter.com/BottyStatus
 
 # actualité
+
+01/06/2021 - une demande pour que le bot soit disponible sur top.gg a été déposé, il ne reste plus qu'a attendre qu'il soit accepté. le développement est un pe à l'arrêt pour le moment suite au brainstorming dont j'ai parlé le 27/04/2021. 
 
 27/05/2021 - le developpement avance petit à petit. Un brain storming est en cours pour savoir sur quelle platforme nous hebergerons notre bot en js. Faute de moyen financier, cette tache est plus compliqué que prévu, mais notre équipe n'abendonnera pas. 
 
