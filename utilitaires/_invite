@@ -1,1 +1,6 @@
-, bientôt dispo!
+$nomention
+$title[inviter botty]
+$description[ discord (temp) : https://discord.com/oauth2/authorize?client_id=480032260993581056&scope=bot&permissions=335949023
+top.gg : bientôt]
+$footer[ vous pouvez ajouter botty à votre serveur. il sera alors analysé par nos services pour determiner le niveau de protection _optiwork]
+$addButton[no;https://discord.com/oauth2/authorize?client_id=480032260993581056&scope=bot&permissions=335949023;ajouter bot;link;no;]
