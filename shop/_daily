@@ -15,7 +15,7 @@ $if[$getUserVar[ispet;$mentioned[1]]==3]
 > Voici votre récompense quotidienne:  `$random[15;30]` points boutique! vous en gagnez plus grace à votre pet.  
 $endif
 $if[$getUserVar[ispet;$mentioned[1]]==999] 
-> Voici votre récompense quotidienne:  2 147 483 647 points boutique! vous en gagnez plus grace à votre pet.  
+> Voici votre récompense quotidienne:  2 147 483 647 points boutiques, soit le maximum! vous en gagnez plus grace à votre pet.  
 $endif
 
 Note: vous pouvez regarder quoi faire avec ces points avec la commande `_shop`]

@@ -1,0 +1,6 @@
+$nomention
+$onlyIf[$isNumber[$message[1]]==true;Vous devez donner un nombre valide !]
+$onlyForIDs[499297738370973716;432116536866766849; :x: Tu n'as pas la permission d'exécuter cette commande !]
+le clan "sunning" à gagné $message[1] points !
+$setServerVar[sunnpts;$sum[$getServerVar[sunnpts];$message[1]];807582681281986620]
+$channelSendMessage[;le clan "sunning" à gagné $message[1] points !]

@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Décrire le bug**
+**Décrire le bug** &
 Une description claire et concise de ce qu'est le bug.
 
 **comment reproduire le bug**
@@ -18,7 +18,7 @@ exemples:
 3. Faites défiler vers le bas jusqu'à "....".
 4. Voir l'erreur
 
-**Comportement attendu**
+**Comportement attendu** & 
 Une description claire et concise de ce que vous attendez.
 
 **Captures d'écran**
@@ -26,3 +26,6 @@ Le cas échéant, ajoutez des captures d'écran pour aider à expliquer votre pr
 
 **Contexte supplémentaire**
 Ajoutez tout autre contexte concernant le problème ici.
+
+--- 
+& = obligatoire 

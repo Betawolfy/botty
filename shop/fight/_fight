@@ -1,0 +1,8 @@
+$nomention
+$setVar[tempfight;$mentioned[1]]
+$title[:crossed_swords: - combat de pet]
+$description[$mentioned[1], $username vous défie dans un combat! acceptez-vous le défi? (yes/no)]
+$setUserVar[isfight;1]
+$setUserVar[isfight;1;$mentioned[1]]
+$awaitFunc[yes]
+$awaitFunc[no]

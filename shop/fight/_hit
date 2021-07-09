@@ -1,0 +1,11 @@
+$nomention
+$if[$getUserVar[tempfight]==1]
+
+$username[$getVar[tempfightn2]] inflige $random[1;10] au pet de $username[$getVar[tempfightn1]]
+$setUserVar[petlifecommon;$sub[$getServerVar[petlifecommon;$username[$getVar[tempfightn1]];$random[1;10]];$username[$getVar[tempfightn1]]
+$endif
+
+$if[$getUserVar[tempfight]==2]
+
+$username[$getVar[tempfightn1]] inflige $random[1;10] au pet de $username[$getVar[tempfightn2]]
+$setUserVar[petlifecommon;$sub[$getUserVar[petlifecommon;$username[$getVar[tempfightn2]];$random[1;10]];$username[$getVar[tempfightn2]]

@@ -1,0 +1,7 @@
+$nomention
+$title[points de clan]
+$description[
+le clan psykoss possède $getServerVar[psykpts] points
+le clan poyogang possède $getServerVar[poyokpts] points
+le clan sunning possède $getServerVar[sunnkpts] points]
+$footer[version test]
